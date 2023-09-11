@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DarkWithLegacy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorModeCheck">#FFFF00</item>
+        <item name="stringMode">Day</item>
+    </style>
+
+    <style name="Theme.DarkWithLegacy" parent="Base.Theme.DarkWithLegacy" />
+</resources>

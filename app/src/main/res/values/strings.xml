@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DarkWithLegacy</string>
+    <string name="mode">Day</string>
+    <string name="target_string">string.xml:</string>
+    <string name="target_theme">theme.xml:</string>
+    <string name="action_open_dialog">Open dialog!</string>
+    <string name="target_resource">resource:</string>
+</resources>
