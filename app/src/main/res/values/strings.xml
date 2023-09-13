@@ -5,4 +5,6 @@
     <string name="target_theme">theme.xml:</string>
     <string name="action_open_dialog">Open dialog!</string>
     <string name="target_resource">resource:</string>
+    <string name="action_open_alert">Open alert!</string>
+    <string name="action_ok">ok</string>
 </resources>

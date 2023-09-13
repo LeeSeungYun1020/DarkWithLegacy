@@ -10,7 +10,9 @@
         android:theme="@style/Theme.DarkWithLegacy">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges=""
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
