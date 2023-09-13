@@ -29,7 +29,7 @@ class MainActivity : Activity() {
     // Activity -> true, AppCompatActivity -> false 로 지정
     private val appCompatFlag = true
     private val clearFlag = false
-    private val fixedModeFlag = true
+    private val fixedModeFlag = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         if (clearFlag) {
@@ -63,6 +63,9 @@ class MainActivity : Activity() {
                         .create()
                         .show()
                 }
+                findViewById<Button>(R.id.open_web_button)?.setOnClickListener {
+                    WebDialogFragment().show(fragmentManager, "web")
+                }
             }
         } else {
             super.onCreate(savedInstanceState)
@@ -78,6 +81,9 @@ class MainActivity : Activity() {
                     .setPositiveButton(R.string.action_ok, null)
                     .create()
                     .show()
+            }
+            findViewById<Button>(R.id.open_web_button)?.setOnClickListener {
+                WebDialogFragment().show(fragmentManager, "web")
             }
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {

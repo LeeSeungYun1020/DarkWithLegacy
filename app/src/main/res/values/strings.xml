@@ -7,4 +7,5 @@
     <string name="target_resource">resource:</string>
     <string name="action_open_alert">Open alert!</string>
     <string name="action_ok">ok</string>
+    <string name="action_open_web">Open web!</string>
 </resources>
